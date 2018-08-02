@@ -1,0 +1,15 @@
+# Site Settings
+title: Pablo Vicente Fernández - Portfolio
+email: pablovicentefernandez@gmail.com
+description: >
+  Portfolio de Pablo Vicente Fernández, desarrollador front-end vigués.
+baseurl: "/portfolio"
+url: "http://c3pvf.github.io"
+twitter_username: pablolibertario
+github_username:  C3PVF
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM

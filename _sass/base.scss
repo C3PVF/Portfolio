@@ -1,0 +1,113 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+#presentacion {
+    margin-bottom:2rem;
+}
+footer {
+    background-color:#242424;
+    color: white;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+}
+#presentacion {
+    background-color: #0E34A0;
+}
+.presentacion-img-holder {
+    background-image: url(/images/perfil.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 11rem;
+    max-width: 180px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.presentacion-img-holder.redondo {
+    border-radius: 12rem;
+    border: 3px white solid;
+}
+.presentacion-txt {
+    text-align: center;
+    color:#ccc;
+}
+.grid-element {
+    box-shadow: 1px 1px 1px 2px #ccc;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+}
+.cv-bloque {
+    padding:20px;
+}
+.knowledge {
+    background:#ccc;
+    border-radius:5px;
+    width:30px;
+    padding:5px;
+}
+.cv-otros li {
+    line-height:30px;
+    margin-right: 5px;
+}
+.cv-otros ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+}
+.portfolio-type-title {
+    margin-bottom: 30px;
+}
+.portfolio-grid-element {
+    /*box-shadow: 1px 1px 1px 2px #ccc;*/
+    border-radius: 5px;
+    border:1px solid #ccc;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.portfolio-grid-element img {
+    width:100%;
+}
+.portfolio-grid-element .portfolio-element-caption {
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    text-align: left;
+    padding-top: 15%;
+    padding-left: 5%;
+    top: 100%;
+    margin: auto;
+    background: none;
+    -webkit-transition: height 0.1s, background 0.1s;
+    -moz-transition: height 0.1s, background 0.1s;
+    -o-transition: height 0.1s, background 0.1s;
+    transition: height 0.1s, background 0.1s;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+.portfolio-element-title{
+    position: relative;
+    color: white;
+}
+.portfolio-element-txt{
+    color: white;
+}
+.portfolio-grid-element:hover .portfolio-element-caption {
+    height:100%;
+    background:rgba(36, 36, 36,0.9);
+    top:0;
+}
+.portfolio-element-icon {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    font-size: 35px;
+}

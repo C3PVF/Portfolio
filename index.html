@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<section id="presentacion">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="presentacion">
+                    <div class="presentacion-img">
+                         <div class="presentacion-img-holder redondo"></div>
+                    </div>
+                    <div class="presentacion-txt">
+                        <h1>Pablo Vicente Fernández</h1>
+                        <p><strong>Fecha de nacimiento:</strong> 09/08/1991</p>
+                        <p><strong>DNI:</strong> 35577101B</p>
+                        <p><strong>Población:</strong> Vigo (Actualmente)</p>
+                        <p><strong>Desarrollador Front-End</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="cv">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="cv">
+                    <div class="grid-element">
+                        {% include cv.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="portfolio">
+                    <div class="col-xl-12 section-title text-center">
+                        <h2>Portfolio</h2>
+                    </div>
+                    <div class="grid-element">
+                        <div class="row portfolio-grid-webdesign">
+                            <div class="col-xl-12 portfolio-type-title">
+                                <h3> Web Design</h3>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                {% include portfolio-grid-element.html url="http://fozfilms.com" file="/images/fozfilms.jpg" title="Fozfilms" caption="Web de fotografía." icon='<i class="fab fa-wordpress-simple"></i>' %}
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                {% include portfolio-grid-element.html url="http://xanela.es" file="" title="Xanela" caption="Ecommerce Textil" icon='<i class="fab fa-wordpress-simple"></i>' %}
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                {% include portfolio-grid-element.html url="http://bambalinasboutique.com" file="/images/bambalinas.jpg" title="Bambalinas" caption="Ecommerce Textil" icon='<i class="fas fa-shopping-cart"></i>' %}
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                {% include portfolio-grid-element.html url="https://henacolor.es" file="/images/henacolor.jpg" title="Henacolor" caption="Tienda Online de Pinturas" icon='<i class="fas fa-shopping-cart"></i>' %}
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="grid-element">
+                        <div class="row portfolio-grid-other">
+                            <div class="col-xl-12 portfolio-type-title">
+                                <h3>Other Creative Things</h3>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                {% include portfolio-grid-element.html url="/images/1final_yell.jpg" file="/images/1final_yell.jpg" title="Henriqueta" caption="Cartel corporativo" icon='<i class="fas fa-pencil-alt"></i>' %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
