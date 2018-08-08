@@ -12,8 +12,10 @@
   border: 1px solid;
   padding: 20px;
   box-shadow: 1px 1px 1px #ccc;
-  height:430px;
+  height:auto;
+  min-width:430px;
 }
+@media (max-width:)
 .title-list-seo {
   margin-bottom:15px;
 }
